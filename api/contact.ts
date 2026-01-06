@@ -33,7 +33,7 @@ export default async function handler(request: Request) {
 
         const data = await resend.emails.send({
             from: 'Portfolio Contact <onboarding@resend.dev>',
-            to: ['zouatine.de.zakaria@gmail.com'],
+            to: ['zouatinezakaria22@gmail.com'],
             subject: emailSubject,
             replyTo: email,
             html: `
