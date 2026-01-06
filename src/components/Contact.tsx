@@ -36,6 +36,11 @@ export function Contact() {
         body: JSON.stringify(data),
       });
 
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Invalid response from server. Use a deployed environment for email functionality.');
+      }
+
       if (response.ok) {
         setStatus('success');
         (e.target as HTMLFormElement).reset();
