@@ -31,7 +31,7 @@ const projects = [
     categoryKey: 'backendService' as const,
     img: iThinkImg,
     descriptionKey: 'iThinkDesc' as const,
-    githubUrl: 'https://github.com/DE-TeAcH/ithink',
+    githubUrl: 'https://github.com/DE-TeAcH/ithink-full',
     websiteUrl: 'https://ithink.ct.ws/',
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     categoryKey: 'backendService' as const,
     img: thoughtFlowImg,
     descriptionKey: 'thoughtFlowDesc' as const,
-    githubUrl: 'https://github.com/DE-TeAcH/thought-flow',
+    githubUrl: 'https://github.com/DE-TeAcH/Thought-Flow-Backend',
   },
   {
     title: 'Portfolio',
@@ -55,7 +55,7 @@ const projects = [
     img: hrmImg,
     descriptionKey: 'hrmDesc' as const,
     githubUrl: 'https://github.com/DE-TeAcH/hrm',
-    downloadUrl: '#',
+    //downloadUrl: '#',
   },
 ];
 
