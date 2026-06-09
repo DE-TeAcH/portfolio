@@ -18,7 +18,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     roleKey: "devManagerRole",
-    company: "Digibookly",
+    company: "Agius Agency",
     startMonth: "december",
     startYear: "2025",
     endMonth: "Present",

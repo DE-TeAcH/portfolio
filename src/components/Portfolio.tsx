@@ -8,7 +8,7 @@ import hrmImg from '../assets/HRM.png';
 import iThinkImg from '../assets/iThink.png';
 import portfolioImg from '../assets/Portolio.png';
 import uniconnectImg from '../assets/uniconnect.png';
-import AccountTechImg from '../assets/AccounTech.png';
+import AccountTechImg from '../assets/accountech.png';
 import tsManagerImg from '../assets/TS-Manager.png';
 import thoughtFlowImg from '../assets/ThoughtFlow.png';
 
