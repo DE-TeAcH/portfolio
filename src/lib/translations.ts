@@ -58,6 +58,8 @@ export const translations = {
     // Portfolio Section
     portfolioTitle: 'Portfolio',
     portfolioDescription: 'Selected projects showcasing my approach to design and development.',
+    showMore: 'Show More',
+    showLess: 'Show Less',
     viewDetails: 'View Details',
     // Project Categories
     webApplication: 'Web Application',
@@ -160,6 +162,8 @@ export const translations = {
     // Portfolio Section
     portfolioTitle: 'الأعمال',
     portfolioDescription: 'مشاريع مختارة تعرض نهجي في التصميم والتطوير.',
+    showMore: 'عرض المزيد',
+    showLess: 'عرض أقل',
     viewDetails: 'عرض التفاصيل',
     // Project Categories
     webApplication: 'تطبيق ويب',
