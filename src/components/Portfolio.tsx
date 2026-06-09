@@ -7,6 +7,8 @@ import empreinteImg from '../assets/Empreinte.png';
 import hrmImg from '../assets/HRM.png';
 import iThinkImg from '../assets/iThink.png';
 import portfolioImg from '../assets/Portolio.png';
+import uniconnectImg from '../assets/uniconnect.png';
+import AccountTechImg from '../assets/AccounTech.png';
 import tsManagerImg from '../assets/TS-Manager.png';
 import thoughtFlowImg from '../assets/ThoughtFlow.png';
 
@@ -48,6 +50,22 @@ const projects = [
     descriptionKey: 'portfolioDesc' as const,
     githubUrl: 'https://github.com/DE-TeAcH/portfolio',
     websiteUrl: 'https://zouatinezakaria.vercel.app',
+  },
+  {
+    title: 'UniConnect',
+    categoryKey: 'website' as const,
+    img: uniconnectImg,
+    descriptionKey: 'UniConnectDesc' as const,
+    githubUrl: 'https://github.com/DE-TeAcH/UniConnect',
+    websiteUrl: 'https://uniconnect-prj.vercel.app',
+  },
+  {
+    title: 'AccounTech',
+    categoryKey: 'MobileApp' as const,
+    img: AccountTechImg,
+    descriptionKey: 'AccounTechDesc' as const,
+    githubUrl: 'https://github.com/DE-TeAcH/AccounTech',
+    //downloadUrl: '#',
   },
   {
     title: 'Human Resource Management ',
