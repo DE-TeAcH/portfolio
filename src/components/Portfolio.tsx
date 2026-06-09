@@ -8,6 +8,7 @@ import hrmImg from '../assets/HRM.png';
 import iThinkImg from '../assets/iThink.png';
 import portfolioImg from '../assets/Portolio.png';
 import uniconnectImg from '../assets/uniconnect.png';
+import AgiusImg from '../assets/agius.png';
 import AccountTechImg from '../assets/accountech.png';
 import tsManagerImg from '../assets/TS-Manager.png';
 import thoughtFlowImg from '../assets/ThoughtFlow.png';
@@ -51,6 +52,14 @@ const projects = [
     descriptionKey: 'AccounTechDesc' as const,
     githubUrl: 'https://github.com/DE-TeAcH/AccounTech',
     //downloadUrl: '#',
+  },
+  {
+    title: 'Agius Agency',
+    categoryKey: 'website' as const,
+    img: AgiusImg,
+    descriptionKey: 'AgiusAgencyDesc' as const,
+    githubUrl: 'https://github.com/DE-TeAcH/agius',
+    websiteUrl: 'https://agius-agency.vercel.app',
   },
   {
     title: 'Portfolio',
@@ -190,7 +199,7 @@ export function Portfolio() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4 }}
         >
-          {hasExpanded && (
+          {visibleCount > DEFAULT_VISIBLE && (
             <motion.button
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}

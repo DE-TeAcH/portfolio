@@ -79,6 +79,7 @@ export const translations = {
     thoughtFlowDesc: 'Intelligent backend service for processing and managing the blogs and thoughts of user; built in collaboration with "Bourahla Mohamed".',
     portfolioDesc: 'Personal portfolio website showcasing projects with a sophisticated dark theme.',
     hrmDesc: 'Cross-platform HR management solution with mobile and desktop capabilities.',
+    AgiusAgencyDesc: 'A modern website built to help clients connect with a Agius Agency which helps them with their projects (Web Development, UI/UX Design, Automation, Mobile App Development, Content Writing, Branding).',
     AccounTechDesc: 'Mobile application that helps freelancers, small business owners and professionals to manage their customers, invoices, expenses and income.',
     UniConnectDesc: 'UniConnect is a comprehensive platform that gathers event creators(teacher, company, clubs), event attendees(student, teacher),and event responsible(dpt head) in one place, facilitating seamless event management, task assignment, organization, and personnel history.',
     // Contact Section
@@ -183,8 +184,9 @@ export const translations = {
     thoughtFlowDesc: 'خدمة خلفية ذكية لمعالجة وإدارة مدونات المستخدم وأفكاره؛ مبنية في تعاون مع "بورحلة محمد".',
     portfolioDesc: 'موقع أعمال شخصي يعرض المشاريع بتصميم داكن معقد.',
     hrmDesc: 'تطبيق موجه ل"إدارة الموارد البشرية"، متعدد المنصات متاح على الهواتف المحمولة والحواسيب المكتبية.',
+    AgiusAgencyDesc: 'موقع حديث عبر الإنترنت يهدف إلى مساعدة العملاء في التواصل مع شركة Agius التي تساعدهم في مشاريعهم (تطوير الويب، التصميم الجرافيكي، الأتمتة، تطوير تطبيقات الهواتف، كتابة المحتوى، الهويات التجارية).',
     AccounTechDesc: 'تطبيق جوال يساعد العاملين المستقلين، وأصحاب الأعمال الصغيرة والمحترفين على إدارة عملائهم وفواتيرهم ونفقاتهم ودخلهم.',
-    UniConnectDesc: 'UniConnect هو نظام أساسي شامل يجمع بين منشئي الأحداث (معلمين، شركات، أندية)، حاضري الأحداث (طلاب، معلمين)، ومسؤولي الأحداث (رؤساء الأقسام) في مكان واحد، مما يسهل إدارة الأحداث وسير العمل وتعيين المهام وتنظيم الأنشطة وتاريخ الأنشطة الشخصية.',
+    UniConnectDesc: 'نظام أساسي شامل يجمع بين منشئي الأحداث (معلمين، شركات، أندية)، حاضري الأحداث (طلاب، معلمين)، ومسؤولي الأحداث (رؤساء الأقسام) في مكان واحد، مما يسهل إدارة الأحداث وسير العمل وتعيين المهام وتنظيم الأنشطة وتاريخ الأنشطة الشخصية.',
     // Contact Section
     contactTitle: 'لنعمل معاً',
     contactDescription: 'أنا متاح حالياً لفرص العمل. لنبني شيئاً استثنائياً.',
