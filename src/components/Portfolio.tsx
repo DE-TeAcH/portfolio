@@ -5,6 +5,7 @@ import { PortfolioDialog } from './PortfolioDialog';
 import { useLanguage } from '../lib/LanguageContext';
 import empreinteImg from '../assets/Empreinte.png';
 import hrmImg from '../assets/HRM.png';
+import zeffrixImg from '../assets/Zeffrix.png';
 import iThinkImg from '../assets/iThink.png';
 import portfolioImg from '../assets/Portolio.png';
 import uniconnectImg from '../assets/uniconnect.png';
@@ -23,20 +24,28 @@ const projects = [
     websiteUrl: 'https://empreinte.vercel.app',
   },
   {
+    title: 'UniConnect',
+    categoryKey: 'platform' as const,
+    img: uniconnectImg,
+    descriptionKey: 'UniConnectDesc' as const,
+    githubUrl: 'https://github.com/DE-TeAcH/UniConnect',
+    websiteUrl: 'https://uniconnect-prj.vercel.app',
+  },
+  {
+    title: 'Zeffrix',
+    categoryKey: 'mobileApplication' as const,
+    img: zeffrixImg,
+    descriptionKey: 'ZeffrixDesc' as const,
+    //githubUrl: '#',
+    websiteUrl: 'https://zeffrix.vercel.app',
+  },
+  {
     title: 'iThink',
     categoryKey: 'backendService' as const,
     img: iThinkImg,
     descriptionKey: 'iThinkDesc' as const,
     githubUrl: 'https://github.com/DE-TeAcH/ithink-full',
     websiteUrl: 'https://ithink.ct.ws/',
-  },
-  {
-    title: 'UniConnect',
-    categoryKey: 'website' as const,
-    img: uniconnectImg,
-    descriptionKey: 'UniConnectDesc' as const,
-    githubUrl: 'https://github.com/DE-TeAcH/UniConnect',
-    websiteUrl: 'https://uniconnect-prj.vercel.app',
   },
   {
     title: 'TS Manager',
@@ -47,7 +56,7 @@ const projects = [
   },
   {
     title: 'AccounTech',
-    categoryKey: 'Mobile Application' as const,
+    categoryKey: 'mobileApplication' as const,
     img: AccountTechImg,
     descriptionKey: 'AccounTechDesc' as const,
     githubUrl: 'https://github.com/DE-TeAcH/AccounTech',

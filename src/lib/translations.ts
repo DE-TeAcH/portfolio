@@ -34,8 +34,6 @@ export const translations = {
     start: 'Start',
     end: 'End',
     // Experience Items
-    devManagerRole: 'Development Manager',
-    devManagerDesc: 'Apart from being a co-founder of the Agency "Digibookly", I`m also one of the managers supervising the development process to make sure our clients are satisfied.',
     fullStackDevRole: 'Full-Stack Developer',
     fullStackDevDesc: 'Developed applications for clients (Websites & Phone Applications) according to their tastes; walking step by step with them to make sure they feel satisfied.',
     backendDevRole: 'Backend Developer',
@@ -67,6 +65,8 @@ export const translations = {
     backendService: 'Backend Service',
     website: 'Website',
     crossPlatform: 'Cross Platform',
+    mobileApplication: 'Mobile Application',
+    platform: 'Platform',
     // Portfolio Dialog
     close: 'Close',
     viewGithub: 'View on GitHub',
@@ -75,6 +75,7 @@ export const translations = {
     // Project Descriptions
     empreinteDesc: 'A modern web application built to help clients track their orders and add reviews about their experience in the shop and to help the owner manage his COFFEE SHOP (Orders, Announces, Menu, Clients, Reviews, Open/Close State), built in collaboration with "Bourahla Mohamed".',
     tsManagerDesc: 'Comprehensive full-stack solution for managing Clubs of a university, making the tracking of events, members, roles easier for the administration and the club leader, also making the events realisation and tasks assignments easier for members and dpt heads.',
+    ZeffrixDesc: 'Zeffrix is a modern fitness mobile application designed to make structured gym training simple, personalized, motivating, and accessible, It was built for people that do not necessarily have the knowledge, nor an optimized training plan, nor a tracking system.',
     iThinkDesc: 'A platform designed to foster creativity and innovation by allowing users to share their ideas and thoughts with the world. Whether the user is looking to brainstorm, collaborate, or simply express his feelings, iThink provides the tools he needs to make his ideas come to life.',
     thoughtFlowDesc: 'Intelligent backend service for processing and managing the blogs and thoughts of user; built in collaboration with "Bourahla Mohamed".',
     portfolioDesc: 'Personal portfolio website showcasing projects with a sophisticated dark theme.',
@@ -139,8 +140,6 @@ export const translations = {
     start: 'البداية',
     end: 'النهاية',
     // Experience Items
-    devManagerRole: 'مدير التطوير',
-    devManagerDesc: 'بجانب أنني أحد مؤسسي وكالة "Agius Agency", أنا أيضاً أحد المديرين الذين يشرفون على عملية التطوير للتأكد من رضا عملائنا.',
     fullStackDevRole: 'مطور فول ستاك',
     fullStackDevDesc: 'تطوير تطبيقات للعملاء (المواقع الإلكترونية وتطبيقات الهواتف) وفقًا لذوقهم؛ و العمل معهم خطوة بخطوة للتأكد من رضاهم.',
     backendDevRole: 'مطور الخدمات الخلفية',
@@ -172,6 +171,8 @@ export const translations = {
     backendService: 'الخدمات الخلفية',
     website: 'موقع إلكتروني',
     crossPlatform: 'متعدد المنصات',
+    mobileApplication: 'تطبيق هاتف',
+    platform: 'منصة',
     // Portfolio Dialog
     close: 'إغلاق',
     viewGithub: 'عرض على GitHub',
@@ -180,6 +181,7 @@ export const translations = {
     // Project Descriptions
     empreinteDesc: 'تطبيق ويب حديث مصمم لمساعدة العملاء في تتبع طلباتهم وإضافة تعليقات حول تجربتهم في المتجر ومساعدة المالك في إدارة متجره للقهوة (الطلبات، الإعلانات، القائمة، العملاء، التعليقات، الحالة المفتوحة/المغلقة)، مبنيًا في تعاون مع "بورحلة محمد".',
     tsManagerDesc: 'حل شامل لتطوير الأندية الجامعية، مما يجعل تتبع الأحداث، الأعضاء، الأدوار أسهل للإدارة والقائد، كما يجعل تنفيذ الأحداث وتعيين المهام أسهل للأعضاء وأعضاء الإدارة.',
+    ZeffrixDesc: 'تطبيق لياقة بدنية حديث مصمم لجعل التدريب المنظم في الصالات الرياضية بسيطًا وشخصيًا ومحفزًا ومتاحًا للجميع. تم تصميمه للأشخاص الذين ليس لديهم بالضرورة المعرفة أو خطة تدريب مثالية أو نظام تتبع.',
     iThinkDesc: 'منصة مصممة لتشجيع الإبداع والابتكار من خلال السماح للمستخدمين بمشاركة أفكارهم مع العالم. سواء كان المستخدم يرغب في التفكير في أفكار جديدة، التعاون، أو مجرد التعبير عن مشاعره، يوفر iThink الأدوات التي يحتاجها لجعل أفكاره حقيقية.',
     thoughtFlowDesc: 'خدمة خلفية ذكية لمعالجة وإدارة مدونات المستخدم وأفكاره؛ مبنية في تعاون مع "بورحلة محمد".',
     portfolioDesc: 'موقع أعمال شخصي يعرض المشاريع بتصميم داكن معقد.',

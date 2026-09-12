@@ -17,21 +17,12 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    roleKey: "devManagerRole",
-    company: "Agius Agency",
-    startMonth: "december",
-    startYear: "2025",
-    endMonth: "Present",
-    endYear: "",
-    descriptionKey: "devManagerDesc",
-  },
-  {
     roleKey: "fullStackDevRole",
     company: "Freelance",
     startMonth: "october",
     startYear: "2024",
-    endMonth: "december",
-    endYear: "2025",
+    endMonth: "Present",
+    endYear: "",
     descriptionKey: "fullStackDevDesc",
   },
   {
